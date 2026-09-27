@@ -30,7 +30,6 @@ public class Flight24Uploader
         this.bookingSystem = bookingSystem;
     }
 
-//    I was fully relying on AI to help me build this method
     public void uploadFile(String filePath)
     {
         if (filePath == null || filePath.isBlank())
